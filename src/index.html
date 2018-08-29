@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet " href="index.css">
+<title>Dino T Rex Clone</title>
+<noscript>
+    JavaScript недоступен.
+    Пожалуйста,включите JavaScript.
+    Без него игра не может работать.
+    Если у Вас старый браузер,пожалуйста обновите его. 
+</noscript>
+</head>
+<body>
+<!--bg sound 
+starts play auto and then looped
+-->
+<audio id="bgsound" style="display:none" src="" autoplay loop></audio>
+<div id="top">
+    <div id="clouds">
+    <img src="" class="cloud" width="94px" height="30px" alt=""> <br />
+    <img src="" class="cloud" width="94px" height="30px" alt="">
+    </div>
+    <!-- 
+        <div style="height:10%">
+        &nbsp;
+        </div>
+    -->
+    <div id="score">
+    </div> 
+    <div id="high_score">
+    </div>  
+</div> <br />
+<div id="main">
+<!-- main part of content -->
+<div id="character">
+    <img src="img/dino1.png" id="dino" alt=""> <!-- dino -->
+    <img src="img/cactus1.png" id="cactus" alt=""> <!-- cactus -->
+</div> 
+</div>                  
+<div id="path">&nbsp;</div>
+<div id="bottom">
+<!-- space -->
+</div>
+<script src="index.js"></script>
+<script src="init.js"></script>
+<script>
+init();
+</script>
+</body>
+</html>

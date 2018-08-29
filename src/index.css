@@ -1,0 +1,50 @@
+/*
+@font-face {
+    font-family: GameFont; 
+    src:url(fonts/pompadur.fnt); 
+    
+}
+*/
+/* ttf*/
+#dino{
+    margin-left:0%;
+    margin-bottom:0%; /* персонаж идет по земле,5% подходит для прыжка*/
+}
+#cactus{
+    margin-left:90%;
+}
+#score,#high_score{
+    font-size:40px;
+    font-weight:500;
+    display:inline;
+    height:10%;
+    font-family: Arial;
+}
+#top{
+    display:inline;
+}
+#clouds{
+background-color:grey;
+width:75%;
+height:20%;
+}
+/*.clouds_lvl{
+height:3%;
+} */
+#main{
+background-color:lightgray;
+width:100%;
+height:30%;
+}
+#path{
+width:100%;
+height:2.5%;
+background-image:url(img/path1.png);
+/*background-repeat:no-repeat;*/
+/*background-repeat:repeat-x; */
+}
+#bottom{
+background-color:brown;
+width:100%;
+height:20%;
+}
